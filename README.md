@@ -8,8 +8,11 @@ sudo podman run -d --name mysql -p 3306:3306 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes m
 suso podman exec -it mysql /bin/bash
 
 mysql -uroot
+
 create database employees;
+
 use employees;
+
 CREATE TABLE `employee` (
   `id` int NOT NULL AUTO_INCREMENT,
   `first_name` varchar(20) DEFAULT NULL,
