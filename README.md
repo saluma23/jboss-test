@@ -29,17 +29,25 @@ sudo podman inspect mysql --format="{{.NetworkSettings.IPAddress}}"
 Eclipse:
 --------
 use the IP address in our application. (src\main\java\com\salman\dao\Employeedao.jsp)
+
 File -> save all
+
 export -> war
+
 upload to git -> saluma23/jboss-test
 
 browser:
 --------
 localhost:8080
+
 admin console: 
+
 user: admin
+
 password: Admin.123
+
 deployment -> deploy war
+
 localhost:8080/developer-forum/register
 
 Notes:
