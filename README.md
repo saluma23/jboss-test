@@ -54,8 +54,11 @@ Notes:
 ------
 Runtimes:
 App is using JAVA JRE - 1.8
+
 Container JBOSS (daggerok/jboss-eap-7.3:7.3.0-centos) is using openjdk-1.8 (supports all versions of JAVA JRE 1.8)
+
 MYSQL:
 IP Address of the container is found using (podman inspect mysql --format="{{.NetworkSettings.IPAddress}}")
+
 map it to our application source code of java jdbc connection jsp program.
  
